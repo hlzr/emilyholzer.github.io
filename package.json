@@ -1,0 +1,29 @@
+{
+  "name": "emilyholzer.github.io",
+  "version": "1.0.0",
+  "description": "```\r git push origin `git subtree split --prefix=dist/ source`:master --force\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlzr/emilyholzer.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hlzr/emilyholzer.github.io/issues"
+  },
+  "homepage": "https://github.com/hlzr/emilyholzer.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
+  }
+}
