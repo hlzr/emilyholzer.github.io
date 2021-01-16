@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  font-family:Georgia;
+  margin-top: 10em;
+}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+#main_top {
+  width: 60%;
+  max-width: 8in;
+  position: relative;
+}
+#main_image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#main_text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-50%);
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+<div id="main_top">
+  <img id="main_image" src="emily.jpg">
+  <div id="main_text" >
+    <h1>In loving memory of Emily Holzer</h1>
+    <p>November 24, 1989 &mdash; October 21, 2020</p>
+  </div>
+</div>
+
+<div style="overflow:auto">
+
+  <div class="right">
+    <h2><em>Beloved</em></h2>
+    <p>Musician</p>
+    <p>Sister</p>
+    <p>Daughter</p>
+    <p>Friend</p>
+    <p>Chatter</p>
+  </div>
+</div>
+</body>
+</html>
+
