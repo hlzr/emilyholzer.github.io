@@ -1,92 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body {
-  font-family:Georgia;
-  margin-top: 10em;
-}
-
-* {
-  box-sizing: border-box;
-}
-.menu {
-  float:left;
-  width:20%;
-  text-align:center;
-}
-.menu a {
-  background-color:#e5e5e5;
-  padding:8px;
-  margin-top:7px;
-  display:block;
-  width:100%;
-  color:black;
-}
-.main {
-  float:left;
-  width:60%;
-  padding:0 20px;
-}
-.right {
-  background-color:#e5e5e5;
-  float:left;
-  width:20%;
-  padding:15px;
-  margin-top:7px;
-  text-align:center;
-}
-
-#main_top {
-  width: 60%;
-  max-width: 8in;
-  position: relative;
-}
-#main_image {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-#main_text {
-  z-index: 100;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  transform: translateY(-50%);
-}
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width:100%;
-  }
-}
-</style>
-</head>
-<body>
-<div id="main_top">
-  <img id="main_image" src="emily.jpg">
-  <div id="main_text" >
-    <h1>In loving memory of Emily Holzer</h1>
-    <p>November 24, 1989 &mdash; October 21, 2020</p>
-  </div>
-</div>
-
-<div style="overflow:auto">
-
-  <div class="right">
-    <h2><em>Beloved</em></h2>
-    <p>Musician</p>
-    <p>Sister</p>
-    <p>Daughter</p>
-    <p>Friend</p>
-    <p>Chatter</p>
-  </div>
-</div>
-</body>
+  <head>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="main">
+        <div id="top">
+          <img id="top_image" src="emily.jpg" alt="Emily Holzer">
+          <div id="top_text">
+            <div id="top_text_bg">
+              <h2 id="top">In loving memory of</h2>
+              <h1 id="top">Emily Holzer</h1>
+              <p id="top">November 24, 1989 &mdash; October 21, 2020</p>
+            </div>
+          </div>
+        </div>
+        <div id="body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2><em>Beloved</em></h2>
+          <p>Musician, Sister, Daughter, Friend, Chatter, Musician, Sister, Daughter, Friend, Chatter Musician, Sister, Daughter, Friend, Chatter Musician, Sister, Daughter, Friend, Chatter Musician, Sister, Daughter, Friend, Chatter Musician, Sister, Daughter, Friend, Chatter Musician, Sister, Daughter, Friend, Chatter Musician, Sister, Daughter, Friend, Chatter</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
-

@@ -13,3 +13,7 @@ npx gulp compile
 ```
 git push origin `git subtree split --prefix=dist/ develop`:master --force
 ```
+
+issues:
+* Cant position 'in loving memory' text reliably
+* border on right on mobile
